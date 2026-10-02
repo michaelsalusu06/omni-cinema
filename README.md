@@ -68,7 +68,7 @@ Ensure you have the following installed on your machine:
 
 ## 🚀 Getting Started
 1. Clone the Repository
-git clone [https://github.com/your-username/OmniCinema.git](https://github.com/your-username/OmniCinema.git)
+git clone [https://github.com/your-username/OmniCinema.git](https://github.com/michaelsalusu06/OmniCinema.git)
 cd OmniCinema
 
 2. Install Dependencies
