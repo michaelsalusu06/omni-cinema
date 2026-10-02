@@ -75,7 +75,7 @@ cd OmniCinema
 Install Flask using pip:
 pip install flask
 
-3.Target Framework Check (Optional)
+3. Target Framework Check (Optional)
 Ensure the <TargetFramework> inside payment-service/PaymentService/PaymentService.csproj matches your installed .NET version (e.g., net6.0, net8.0, or net10.0). You can verify your installed version with:
 dotnet --version
 
