@@ -103,14 +103,14 @@ def buy_ticket():
         return jsonify({"success": False, "message": "Java Engine: Seat is already booked!"}), 400
 
     cs_project = os.path.join(BASE_DIR, "payment-service", "PaymentService")
-    # cs_result = subprocess.run(
-    #     ["dotnet", "run", "--project", cs_project, "--", str(ticket_price), str(age), str(amount_paid)],
-    #     capture_output=True, text=True, cwd=BASE_DIR
-    # )
     cs_result = subprocess.run(
-    ["./PaymentService", str(ticket_price), str(age), str(amount_paid)],
-    capture_output=True, text=True, cwd=BASE_DIR
+        ["dotnet", "run", "--project", cs_project, "--", str(ticket_price), str(age), str(amount_paid)],
+        capture_output=True, text=True, cwd=BASE_DIR
     )
+    # cs_result = subprocess.run(
+    # ["./PaymentService", str(ticket_price), str(age), str(amount_paid)],
+    # capture_output=True, text=True, cwd=BASE_DIR
+    # )
     
     cs_stdout = cs_result.stdout.strip()
     cs_stderr = cs_result.stderr.strip()
