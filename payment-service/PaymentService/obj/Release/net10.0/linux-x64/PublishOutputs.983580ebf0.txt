@@ -1,0 +1,2 @@
+C:\Users\Michael\Documents\Code\Python\OmniCinema\payment-service\PaymentService\bin\Release\net10.0\linux-x64\publish\PaymentService.pdb
+C:\Users\Michael\Documents\Code\Python\OmniCinema\payment-service\PaymentService\bin\Release\net10.0\linux-x64\publish\PaymentService
