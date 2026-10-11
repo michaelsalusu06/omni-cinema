@@ -67,8 +67,3 @@ The production environment is containerized via Docker to run seamlessly on a Li
    docker run -d -p 80:5000 --name my-omnicinema omnicinema
    ```
 
-## 👨‍💻 Author
-**Michael Joseph Salusu**
-*Undergraduate Computer Science Student @ BINUS University*
-* [LinkedIn](https://linkedin.com/in/yourprofile)
-* [GitHub](https://github.com/yourusername)
